@@ -1,13 +1,14 @@
 #find the second largest number
 
-numbers = [10, 20, 42, 50, 30, 35, 50]
+numbers = [10, 20, 42, 50, 45, 30, 35, 50]
 
 # unique = list(set(numbers))
 # unique.sort()
 
 # print(unique[-2])
 
-largest = second = float('-inf')
+largest = 0
+second = 0
 
 for num in numbers:
     if num > largest:
