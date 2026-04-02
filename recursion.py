@@ -8,5 +8,5 @@ def countdown(n):
         print(n)
         countdown(n-1)
 
-num = int(input("Enter a number" + " "))
+num = int(input("Enter a number : "))
 countdown(num)
